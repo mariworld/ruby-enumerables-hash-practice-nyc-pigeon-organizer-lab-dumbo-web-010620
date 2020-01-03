@@ -27,7 +27,9 @@ def nyc_pigeon_organizer(data)
   data.each do |attrib,info|
     info.each do |k,v_name| 
       v_name.each do |names|
-        pig_hash[names] = {}
+        pig_hash[names] = {
+          
+        }
         
          binding.pry
       end
