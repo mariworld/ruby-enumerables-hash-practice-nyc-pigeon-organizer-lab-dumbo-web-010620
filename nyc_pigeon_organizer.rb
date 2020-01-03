@@ -30,10 +30,11 @@ def nyc_pigeon_organizer(data)
         pig_hash[names] = {
         }
       end
+      pig_hash[names]
+       binding.pry
     end 
   end
   pig_hash
-  binding.pry
 end
 
 nyc_pigeon_organizer(data)
