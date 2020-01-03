@@ -25,7 +25,7 @@ data = {
 def nyc_pigeon_organizer(data)
   pig_hash = {}
   data.each do |attrib,info|
-    info.reduce({}) do |trait,name|
+    info.each do |trait,name|
           pig_hash = {name => {attrib => trait}}
     end
   end
