@@ -26,9 +26,7 @@ def nyc_pigeon_organizer(data)
   pig_hash = {}
   data.each do |attrib,info|
     info.each do |trait,name|
-         name.each do |indv_names|
-          #lets make the names keys here
-          pig_hash = {indv_names => attrib}
+          pig_hash = {name => attrib}
          end
       end
     end
