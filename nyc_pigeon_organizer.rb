@@ -30,8 +30,8 @@ def nyc_pigeon_organizer(data)
           #lets make the names keys here
           pig_hash = {indv_names => {attrib => "#{trait}"}}
          end
+         pig_hash
       end
-        pig_hash
     end
 end
 
