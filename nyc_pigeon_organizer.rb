@@ -29,6 +29,7 @@ def nyc_pigeon_organizer(data)
           pig_hash = {name => {attrib => trait}}
     end
   end
+  pig_hash
 end
 
 nyc_pigeon_organizer(data)
