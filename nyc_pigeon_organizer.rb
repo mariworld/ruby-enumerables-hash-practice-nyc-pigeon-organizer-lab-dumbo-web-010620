@@ -32,6 +32,7 @@ def nyc_pigeon_organizer(data)
       end
     end 
   end
+  pig_hash
 end
 
 nyc_pigeon_organizer(data)
